@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.panel {
+  margin-top: 10px;
+}
+.panel > * {
+  height: 40px;
+  font-size: 25px;
+}
+#canvas {
+  border: 1px red solid;
+  width: 100%;
+}
+#pickerBox {
+  margin-left: 200px;
+}
+.btn-circular {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.btn-selected {
+  border-radius: 0px;
+}
+.black {
+  background-color: black;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.white {
+  background-color: white;
+  border: 2px solid black;
+}

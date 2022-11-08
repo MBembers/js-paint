@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farba</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./build.js"></script>
+  </head>
+  <body>
+    <iframe id="my_iframe" style="display: none"></iframe>
+    <div class="container">
+      <canvas id="canvas"></canvas>
+      <div class="panel">
+        <button class="btn-panel" id="undo">Undo</button>
+        <button class="btn-panel" id="clear" onclick="clear">Clear</button>
+        <button class="btn-panel" id="save">Save</button>
+        <button class="btn-circular red" id="red"></button>
+        <button class="btn-circular green" id="green"></button>
+        <button class="btn-circular blue" id="blue"></button>
+        <button class="btn-circular yellow" id="yellow"></button>
+        <button class="btn-circular black btn-selected" id="black"></button>
+        <button class="btn-circular custom" id="custom"></button>
+        <input type="range" name="size" id="size-range" max="10" min="1" />
+        <button class="btn-panel" id="brush">Brush</button>
+        <button class="btn-panel" id="rect">Rectangle</button>
+        <button class="btn-panel" id="elipse">Circle/Elipse</button>
+        <button class="btn-panel" id="line">Line</button>
+        <label for="proportions">
+          <input type="checkbox" id="proportions" />
+          <span class="checkbox-text"
+            >Preserve proportions / Horizontal/Vertical Line</span
+          >
+        </label>
+        <label for="fill">
+          <input type="checkbox" id="fill" />
+          <span class="checkbox-text">Fill</span>
+        </label>
+      </div>
+      <div id="pickerBox">
+        <input type="color" name="colorpicker" id="colorpicker" />
+        <button class="btn-panel" id="picker">OK</button>
+      </div>
+    </div>
+  </body>
+</html>

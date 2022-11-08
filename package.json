@@ -1,0 +1,14 @@
+{
+  "name": "ts-paint",
+  "version": "1.0.0",
+  "description": "canvas paint in ts",
+  "main": ".src/script.ts",
+  "scripts": {
+    "dev": "npx tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
